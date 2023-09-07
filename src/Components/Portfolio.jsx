@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/bg2.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "laptop background image";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "File Encryption - Decryption Project  🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Its a java project which can encrypt and decrypt any file using AES algorithm. It can encrypt and decrypt any file like .txt, .pdf, .docx, .png, .jpg, .mp3, .mp4, .zip, .rar, .exe etc. It can encrypt and decrypt any file of any size. It can encrypt and decrypt any file of any format. It can encrypt and decrypt any file of any extension.",
+    url: "https://github.com/Code-Asif/Image_Pixel_Manipulation",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Tic-Tac-Toe Game  🎉",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Its a simple Tic Tac Toe game made with java. It has a simple GUI. It has a simple logic and design.",
+    url: "https://github.com/Code-Asif",
   },
   {
-    title: "My Resume Site",
+    title: "LinkedIn Clone website",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "LinkedIn clone website using ReactJS, Material UI, and API. It has a simple logic and design.",
+    url: "https://github.com/Code-Asif",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "My Github profile",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "You can check out all my projects on my github profile.",
+    url: "https://github.com/Code-Asif",
   },
 ];
 
