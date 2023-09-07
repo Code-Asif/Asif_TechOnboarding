@@ -77,7 +77,7 @@ const Footer = (props) => {
         )}
         {instagram && (
           <a
-            href={`https://www.instagram.com/aryant_alam/${instagram}`}
+            href={`https://www.instagram.com/aryant_alam${instagram}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,7 +99,7 @@ const Footer = (props) => {
           </a>
         )}
         {twitter && (
-          <a href={`https://twitter.com/AsifAla50918674${twitter}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://twitter.com/AsifAla50918674/${twitter}`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
